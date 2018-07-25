@@ -1,2 +1,2 @@
 # SpringBootMyBatisShiroJWT
-SpringBoot + MyBatis + Shiro + JWT + Redis + MySQL
+SpringBoot + MyBatis + Shiro + JWT + Redis + MySQL + Swagger2
