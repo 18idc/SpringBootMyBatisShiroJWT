@@ -1,7 +1,7 @@
 package com.q18idc.jwt.demo.model;
 
 import lombok.Data;
-import org.apache.ibatis.annotations.CacheNamespaceRef;
+
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -13,7 +13,6 @@ import java.io.Serializable;
  * @date 2018/7/18 22:49
 */
 @Data
-@CacheNamespaceRef(Permission.class)
 @Table(name = "tb_permission")
 public class Permission implements Serializable {
     private static final long serialVersionUID = -1205867062587349285L;

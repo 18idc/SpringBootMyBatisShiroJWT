@@ -14,7 +14,6 @@ import java.io.Serializable;
 */
 
 @Data
-@CacheNamespaceRef(Role.class)
 @Table(name = "tb_role")
 public class Role implements Serializable {
     private static final long serialVersionUID = 3487257621698460001L;

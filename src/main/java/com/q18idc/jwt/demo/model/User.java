@@ -15,7 +15,6 @@ import java.util.Date;
 */
 
 @Data
-@CacheNamespaceRef(User.class)
 @Table(name = "tb_user")
 public class User implements Serializable {
     private static final long serialVersionUID = -7604408412246780362L;

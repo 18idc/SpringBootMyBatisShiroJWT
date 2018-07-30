@@ -1,7 +1,7 @@
 package com.q18idc.jwt.demo.model;
 
 import lombok.Data;
-import org.apache.ibatis.annotations.CacheNamespaceRef;
+
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -14,7 +14,6 @@ import java.io.Serializable;
 */
 
 @Data
-@CacheNamespaceRef(UserRole.class)
 @Table(name = "tb_user_role")
 public class UserRole implements Serializable {
     private static final long serialVersionUID = -84968714925671818L;
